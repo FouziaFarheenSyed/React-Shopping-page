@@ -1,0 +1,81 @@
+
+.headerSection {
+  display: flex;
+  background-color: blueviolet;
+  color: white;
+  padding: 15px;
+}
+
+.center ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 10px;
+}
+.title {
+  font-size: 14px;
+  margin-left: 20px;
+}
+.left{
+  flex: 2;
+}
+.center{
+  display: flex;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+.Search{
+  flex:3;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+.Search input{
+  padding: 10px;
+  width: 250px;
+  margin-bottom:15px;
+  margin-right: -220px;
+  
+}
+.bannerBox{
+  margin: 10px 0px;
+}
+
+.bannerBox img{
+  width: 100%;
+}
+
+.menImages{
+  display: flex;
+  gap: 10px;
+  margin-left: 60px;
+}
+.menImages img{
+  width: 250px;
+  height: 250px;
+}
+
+.WomenImages{
+  display: flex;
+  gap: 10px;
+  margin-left: 60px;
+}
+
+.WomenImages img{
+  width: 250px;
+  height: 250px;
+}
+.signin{
+  margin-top: 20px;
+  margin-right:550px
+}
+
+.right{
+  display:flex;
+  flex-direction: row;
+}
+
+.cart{
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+}
